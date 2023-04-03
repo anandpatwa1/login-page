@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.navbar .left{
+    margin-left: 30px;
+    color: #45f3ff;
+    font-size: 1.5rem;
+
+}
+.navbar .right .btn{
+    margin:  8px;
+    font-size: .8rem;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.btn-border{
+border: 2px solid #45f3ff;
+background: #23242a;
+color: #45f3ff;
+width: auto;
+transition: all 0.2s ease-in-out
+}
+.btn-border:hover{
+    background: #45f3ff;
+    color: #23242a;
+}
